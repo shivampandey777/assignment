@@ -8,7 +8,7 @@ function App() {
     <Router>
       <MainNavbar />
       <Routes>
-        <Route path="/members" element={<MainTable />} />
+        <Route path="/" element={<MainTable />} />
       </Routes>
     </Router>
   );
